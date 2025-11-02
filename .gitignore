@@ -1,0 +1,168 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+.Python
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+wheels/
+*.whl
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+.pyenv/
+.python-version
+
+# Byte-compiled / C extensions
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs and OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Packaging
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert.ipynb
+jupyter_execute/
+output/
+
+# Logs and runtime files
+*.log
+logs/
+run/
+tmp/
+temp/
+*.pid
+*.seed
+
+# Secrets / config
+.env
+.env.local
+.env.*.local
+secrets.*
+local_settings.py
+credentials.json
+*.pem
+*.key
+*.crt
+
+# ML artifacts - models, checkpoints, weights
+# (common model/weight extensions and directories used by training)
+models/
+checkpoints/
+checkpoint/
+checkpoints-*/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.tar.gz
+*.zip
+*.ckpt.index
+
+# ML caches, datasets and hubs
+.cache/
+.cache_transformers/
+.huggingface/
+hf_data_cache/
+transformers_cache/
+datasets/
+.dvc/
+mlruns/
+wandb/
+neptune/
+.mlflow/
+
+# Data files (often large) - adjust if you intentionally track datasets
+data/
+data_raw/
+data_processed/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Vector DBs / RAG artifacts / indexes / embeddings
+.chroma/
+chromadb/
+chromadb.db
+chromadb-*
+faiss_index*
+*.index
+*.vectordb
+vector_store/
+vectors/
+embeddings/
+embeddings_cache/
+*.ann
+*.ivf
+*.vec
+*.kvs
+
+# DBs and local stores
+*.db
+*.sqlite
+*.sqlite3
+*.mlstorage
+
+# Generated docs / site
+docs/_build/
+site/
+doc/build/
+
+# Build artifacts
+dist/
+build/
+eggs/
+wheelhouse/
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.tmp
+
+pgdata/*
