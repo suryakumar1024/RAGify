@@ -10,7 +10,7 @@ db = SQLDatabase.from_uri("postgresql+psycopg2://admin:admin123@localhost:5432/e
 toolkit = SQLDatabaseToolkit(db=db, llm=llm)
 agent = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True)
 
-print("\n LangChain Employee Agent Ready (Ollama mode)!\n")
+print("\nLangChain Employee Agent Ready (Ollama mode)!\n")
 
 while True:
     question = input("Ask your question (or 'exit'): ")
@@ -18,6 +18,6 @@ while True:
         break
     try:
         answer = agent.invoke(question)
-        print("\n Answer:\n", answer, "\n")
+        print("\nAnswer:\n", answer, "\n")
     except Exception as e:
         print("Error:", e)
